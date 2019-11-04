@@ -87,9 +87,42 @@ html {
         padding: 0 25px;
         line-height: 2em;
         border-radius: 1em;
+
+        &--filled {
+            background-color: $color-orange;
+            color: $color-white;
+        }
     }
 }
 
 .section-reasons {
-    background-color: #eff9ff;
+    background-color: $color-ice-blue;
+    padding: $section-padding;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 45px;
+    justify-items: center;
+    text-align: center;
+
+    &__title {
+        font-family: $titles-font-family;
+        font-weight: bold;
+        font-size: rem(24px);
+    }
+
+    &__reason-item, &__button-more {
+        margin: 0 53px;
+    }
+}
+
+.reason-item {
+    &__title {
+        font-family: $titles-font-family;
+        font-weight: bold;
+        line-height: 1.67em;
+    }
+    &__text {
+        line-height: 1.67em;
+    }
 }
