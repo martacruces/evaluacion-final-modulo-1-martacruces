@@ -56,29 +56,37 @@ html {
     }
 }
 
-.wrapper {
-    padding: $main-padding;
-}
-
 .section-window {
-    padding: 20px 0;
+    padding: $section-padding;
 
     &__entry {
-        color:$color-light-blue;
-        font-size: 14px;
+        color: $color-light-blue;
+        font-size: rem(14px);
+        line-height: 2.14em;
+    }
+
+    &__title {
+        font-family: $titles-font-family;
+        font-weight: bold;
+        font-size: rem(24px);
+        margin-bottom: 15px;
     }
 
     &__text {
         color: $color-medium-black;
+        line-height: 1.67em;
+        margin-bottom: 30px;
     }
 
     &__button-go {
-        text-align: left;
         background-color: $color-white;
-        color: #f26002;
-        border: 2px solid #f26002;
-        padding: 4px 12px;
-        border-radius: 12px;
+        font-size: rem(20px);
+        font-weight: 500;
+        color: $color-orange;
+        border: 2px solid $color-orange;
+        padding: 0 25px;
+        line-height: 2em;
+        border-radius: 1em;
     }
 }
 
