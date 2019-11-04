@@ -31,6 +31,7 @@ html {
         font-family: $titles-font-family;
         font-weight: bold;
         text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
         line-height: 1.31em;
         text-align: center;
         margin: 0 0 10px;
@@ -124,5 +125,46 @@ html {
     }
     &__text {
         line-height: 1.67em;
+    }
+}
+
+.footer {
+    padding: $section-padding;
+    padding-top: 60px;
+    background-color: $color-dark-blue;
+    color: $color-white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    &__button-arrow {
+        background-color: $color-white;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    &__links {
+        margin-bottom: 30px;
+        font-size: rem(16px);
+        line-height: 1.88em;
+        text-transform: uppercase;
+    }
+
+    &__copyright {
+        font-size: rem(14px);
+        line-height: 2.14em;
+    }
+    
+    &__heart {
+        color: $color-orange;
     }
 }
