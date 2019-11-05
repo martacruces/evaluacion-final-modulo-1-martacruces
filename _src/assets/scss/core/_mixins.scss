@@ -1,3 +1,4 @@
+/*** It facilitates the use of mediaqueries for tablet and desktop design ***/
 @mixin media($width){
     @media all and (min-width: $width){
         @content

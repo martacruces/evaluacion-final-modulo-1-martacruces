@@ -1,9 +1,9 @@
-/***THESE FUNCTIONS CONVERT PIXELES TO REM***/
-
+/*** It calculates the value in rem units by the number of pixeles given for mobile design. ***/
 @function rem($pixels) {
     @return ( $pixels / $default-font-size * 1rem );
 }
 
+/*** It calculates the value in rem units by the number of pixeles given for tablet and desktop design. ***/
 @function rem-tablet($pixels) {
     @return ($pixels / $default-tablet-font-size) * 1rem;
 }
