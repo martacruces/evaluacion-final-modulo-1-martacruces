@@ -54,6 +54,7 @@ html {
         background-color: $color-white;
         width: 45px;
         height: 45px;
+        cursor: pointer;
     }
 }
 
@@ -156,6 +157,12 @@ html {
         height: 45px;
         border-radius: 50%;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        img {
+            animation-name: arrow-bounce;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+        }
     }
 
     &__links {
