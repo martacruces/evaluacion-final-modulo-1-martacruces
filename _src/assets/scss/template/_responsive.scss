@@ -1,3 +1,36 @@
 @include media($tablet) {
-    
+    .section-reasons {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        grid-row-gap: 45px;
+        grid-column-gap: 4%;
+
+        &__title {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+    .section-window__button-go {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 3;
+        }
+    }
+
+    .footer {
+        text-align: left;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        padding-left: 39px;
+        padding-right: 39px;
+
+        &__links {
+            margin-bottom: 0;
+        }
+
+        &__copyright {
+            order: -1;
+        }
+    }
 }

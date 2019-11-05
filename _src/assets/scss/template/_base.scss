@@ -146,12 +146,16 @@ html {
     align-items: center;
     position: relative;
 
-    &__button-arrow {
-        background-color: $color-white;
+    &__button-link {
+        display:inline-block;
         position: absolute;
         top: 0;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    &__button-arrow {
+        background-color: $color-white;
         border: none;
         width: 45px;
         height: 45px;
