@@ -88,10 +88,16 @@ html {
         padding: 0 25px;
         line-height: 2em;
         border-radius: 1em;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
 
-        &--filled {
+        &--filled, &:hover {
             background-color: $color-orange;
             color: $color-white;
+        }
+
+        &--filled:hover {
+            transform: scale(1.1);
         }
     }
 }
