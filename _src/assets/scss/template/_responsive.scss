@@ -2,8 +2,40 @@
     html {
         font-size: $default-tablet-font-size;
     }
+
+    .header {
+        &__title {
+        font-size: rem-tablet(80px);
+        }
+
+        &__subtitle {
+            font-size: rem-tablet(24px);
+            margin-bottom: 30px;
+        }
+
+        &__button {
+            margin-bottom: 45px;
+        }
+    }
+
     .section-window {
         padding: $section-padding-tablet;
+
+        &__entry {
+            font-size: rem-tablet(14px);
+        }
+
+        &__title {
+            font-size: rem-tablet(26px);
+        }
+
+        &__text {
+            font-size: rem-tablet(20px);
+        }
+
+        &__button-go {
+            font-size: rem-tablet(20px);
+        }
     }
 
     .section-reasons {
@@ -21,6 +53,10 @@
         &__reason-item {
             margin: 0 0 15px;
         }
+    }
+
+    .reason-item__title {
+        margin-bottom: 14px;
     }
 
     .section-window__button-go {
@@ -53,6 +89,18 @@
 }
 
 @include media($desktop) {
+    .header {
+        &__title {
+            font-size: rem-tablet(100px);
+            max-width: 730px;
+            margin: 0 auto;
+        }
+
+        &__button {
+            margin-bottom: 10px;
+        }
+    }
+
     .section-window {
         padding: $section-padding-desktop;
         max-width: 730px;
@@ -63,6 +111,10 @@
         padding: $section-padding-desktop;
         max-width: 1100px;
         margin: 0 auto;
+
+        &__title {
+            font-size: rem-tablet(32px);
+        }
     }
 
     .section-window__button-go {

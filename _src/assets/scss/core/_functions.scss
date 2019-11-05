@@ -1,3 +1,7 @@
 @function rem($pixels) {
     @return ( $pixels / $default-font-size * 1rem );
 }
+
+@function rem-tablet($pixels) {
+    @return ($pixels / $default-tablet-font-size) * 1rem;
+}
