@@ -1,3 +1,5 @@
+/***THESE FUNCTIONS CONVERT PIXELES TO REM***/
+
 @function rem($pixels) {
     @return ( $pixels / $default-font-size * 1rem );
 }

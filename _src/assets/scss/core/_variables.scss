@@ -1,17 +1,23 @@
+/***DEVICES BREACKPOINTS FOR MEDIAQUERIES***/
 $tablet: 768px;
 $desktop: 1200px;
+
+/***ACCORDING TO FONTS***/
 $default-font-family: 'Roboto', sans-serif;
 $titles-font-family: 'Roboto Slab', serif;
 $default-font-size: 18px;
 $default-tablet-font-size: 20px;
-$color-white: #ffffff;
-$color-black: black;
+
+/***ACCORDING TO COLORS***/
+$color-primary: #ffffff;
 $color-medium-black: #4a4a4a;
-$color-light-blue: #8ccbea;
-$color-ice-blue: #eff9ff;
-$color-medium-blue: #0271bc;
-$color-dark-blue: #304268;
-$color-orange: #f26002;
+$color-entry: #8ccbea;
+$color-background-section: #eff9ff;
+$color-menu: #0271bc;
+$color-background-footer: #304268;
+$color-button: #f26002;
+
+/***ACCORDING TO PADDINGS***/
 $section-padding: 30px 15px 45px;
 $section-padding-tablet: 30px 40px 60px;
 $section-padding-desktop: 60px 0;
