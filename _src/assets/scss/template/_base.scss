@@ -103,8 +103,11 @@ html {
     }
 }
 
-.section-reasons {
+.section-reasons-wrapper {
     background-color: $color-ice-blue;
+}
+
+.section-reasons {
     padding: $section-padding;
     padding-bottom: 60px;
     display: grid;
@@ -135,10 +138,13 @@ html {
     }
 }
 
+.footer-wrapper {
+    background-color: $color-dark-blue;
+}
+
 .footer {
     padding: $section-padding;
     padding-top: 60px;
-    background-color: $color-dark-blue;
     color: $color-white;
     text-align: center;
     display: flex;
