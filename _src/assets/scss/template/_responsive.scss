@@ -67,6 +67,23 @@
         padding-right: 43px;
     }
 
+    .special-offer {
+        display: block;
+        width: 100vw;
+        background-color: $color-button;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .special-offer_subtitle {
+        flex-basis: 100%;
+    }
+
     .footer {
         text-align: left;
         flex-direction: row;
